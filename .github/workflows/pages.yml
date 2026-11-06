@@ -30,7 +30,7 @@ jobs:
         run: |
           mkdir -p _site
           cp docs/site/index.html docs/site/privacy.html docs/site/style.css docs/site/.nojekyll _site/
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: _site
       - name: Deploy

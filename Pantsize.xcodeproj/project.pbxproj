@@ -99,20 +99,20 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		A50000000000000000000007 /* Services */ = {
-			isa = PBXGroup;
-			children = (
-				A2000000000000000000000A /* ProjectStore.swift */,
-			);
-			path = Services;
-			sourceTree = "<group>";
-		};
 		A50000000000000000000006 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
 				A20000000000000000000006 /* KeyboardDismiss.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		A50000000000000000000007 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A2000000000000000000000A /* ProjectStore.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +259,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = Pantsize;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "商品画像から寸法を計測するために写真ライブラリへアクセスします。";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -291,6 +292,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = Pantsize;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "商品画像から寸法を計測するために写真ライブラリへアクセスします。";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

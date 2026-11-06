@@ -22,6 +22,18 @@ struct ProjectListView: View {
             }
             .navigationTitle("Pantsize")
             .toolbar {
+                ToolbarItem(placement: .topBarTrailing) {
+                    Menu {
+                        Link(destination: URL(string: "https://kondows95.github.io/pantsize/")!) {
+                            Label("サポート", systemImage: "questionmark.circle")
+                        }
+                        Link(destination: URL(string: "https://kondows95.github.io/pantsize/privacy.html")!) {
+                            Label("プライバシーポリシー", systemImage: "hand.raised")
+                        }
+                    } label: {
+                        Label("ヘルプ", systemImage: "questionmark.circle")
+                    }
+                }
                 if !store.summaries.isEmpty {
                     ToolbarItem(placement: .topBarLeading) {
                         Button(isReordering ? "完了" : "並び替え") {

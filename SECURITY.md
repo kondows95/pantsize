@@ -1,21 +1,20 @@
-# Security Policy
+# セキュリティポリシー
 
-## Supported Versions
+## 対応バージョン
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+Pantsizeの最新の公開バージョンを対象に、セキュリティ修正を行います。
+初回公開前は、mainブランチのコードを報告対象とします。
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+## 脆弱性の報告
 
-## Reporting a Vulnerability
+セキュリティ上の問題は、公開のGitHub Issuesに投稿せず、
+[kondows95apps@gmail.com](mailto:kondows95apps@gmail.com) へご連絡ください。
 
-Use this section to tell people how to report a vulnerability.
+可能な範囲で、以下をお知らせください。
 
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+- アプリのバージョン、iOSのバージョン
+- 問題の概要と再現手順
+- 想定される影響
+
+個人情報、パスワード、第三者の非公開画像などは送信しないでください。
+報告内容を確認し、調査結果や対応方針はメールでご連絡します。

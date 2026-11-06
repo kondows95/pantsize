@@ -11,4 +11,4 @@
 
 Actionsの「Deploy GitHub Pages」が成功してから上記URLにアクセスできることを確認してください。URL確認後、App Store Connectへ登録し、アプリ内にもポリシーのリンクを追加します。
 
-問い合わせ先は公開GitHub Issuesです。投稿にGitHubアカウントが必要であり、投稿内容が公開されることを両ページで説明しています。
+問い合わせ先は kondows95apps@gmail.com です。不具合報告・機能要望はGitHub Issuesでも受け付けます。Issuesへの投稿にはGitHubアカウントが必要であり、投稿内容が公開されることを両ページで説明しています。
